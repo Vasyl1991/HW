@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Forms</title>
+</head>
+
+<body>
+<style>
+:focus::-webkit-input-placeholder {
+  color: transparent
+}
+:focus::-moz-placeholder {
+  color: transparent
+}
+:focus:-moz-placeholder {
+  color: transparent
+}
+:focus:-ms-input-placeholder {
+  color: transparent
+}
+</style>
+<form action="somewhere.php">
+<div id="name_mail">
+<span>Name</span><br>
+<input type="login" name="name" placeholder="Enter your name"><p>
+<span>Email</span><br>
+<input type="email" name="email" placeholder="Enter you email">
+</p>
+</div>   
+<div id="sex">
+<span>Sex</span><br>
+<input type="radio" name="sex" value="male" >
+<label for="male">Male</label>
+<input type="radio" name="sex" value="female">
+<label for="female">Female</label>
+</div><br>
+<div id="current_status">
+<span>Current status</span><br>
+<input type="checkbox" name="student">Student<br>
+<input type="checkbox" name="employed">Employed<br>
+<input type="checkbox" name="employed">Unemployed<br>
+</div><br>
+<div id="m_y">
+<span>Month and Year of birth</span><br>
+<input type="date">
+</div><br>
+<div id="skills">
+<span>Skills and Technologies</span><br>
+<select name="skills" multiple size="10">
+Tech skills
+<optgroup label="Tech skills" name="tech_skills">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>git</option>
+<optgroup label="SoftSkills" name="SoftSkills">
+<option>Time management</option>
+<option>Proactivity</option>
+<option>Teamwork</option>
+<option>Leadership</option>
+</select>
+</div><br>
+<div id="upload_photo">
+<span>Photo</span><br>
+<input type="file" name="upload">
+</div><br>
+<div id="comments">
+<span>Comments</span><br>
+<textarea cols="20" rows="4" name="comments"></textarea><br>
+</div><br>
+<input type="submit" value="save">
+
+
+</form>
+</body>
