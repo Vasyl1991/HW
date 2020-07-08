@@ -1,0 +1,25 @@
+nav{
+  background: #000070;
+  height: 50px;
+}
+ul{
+  list-style: none;
+  padding-left: 0px;
+
+}
+li{
+  float: left;
+}
+a{
+  display: block;
+  text-decoration: none;
+  background: #4527a0;
+  color: white;
+  padding: 0px 15px;
+  line-height: 50px;
+  font-family: arial;
+  font-size: 20px;
+}
+a:hover{
+  background: #7953d2
+}
