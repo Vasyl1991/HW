@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<title>Pagination</title>
+<style>
+  .pagination{
+    color:  #49a7e5;
+    margin-top: 70px;
+    text-align: center; 
+ }
+
+  a{
+    border: 1px solid #a9b4bb;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #49a7e5;
+    padding: 9px 12px; 
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  .pagination1 > a:nth-child(1){
+    background :    #49a7e5;
+    color: white;
+  }
+  .pagination3 > a:nth-child(4), .pagination4 > a:nth-child(4), .pagination5 > a:nth-child(4){
+    background: #49a7e5;
+    color: white;
+  }
+  .pagination2 > a:nth-child(1){
+    background: #49a7e5;
+    color: white;
+  }
+  a:last-child{
+  border-style: none;
+  }
+  .dots{
+  border-style: none;
+  }
+  .pagination > a:first-child{
+  border-style: none;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="pagination1 pagination">
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">Next</a>
+</div>
+<div class="pagination2 pagination">
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a class="dots" href="#">...</a>
+  <a href="#">8</a>
+  <a href="#">Next</a>
+</div>
+  <div class="pagination3 pagination">
+  <a href="#">Previous</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a class="dots" href="#">...</a>
+  <a href="#">8</a>
+  <a href="#">Next</a>
+</div>
+  <div class="pagination4 pagination">
+  <a href="#">Previous</a>
+  <a href="#">1</a>
+  <a class="dots" href="#">...</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">7</a>
+  <a href="#">8</a>
+  <a href="#">Next</a>
+</div>
+  <div class="pagination5 pagination">
+  <a href="#">Previous</a>
+  <a href="#">1</a>
+  <a class="dots" href="#">...</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">7</a>
+  <a class="dots" href="#">...</a>
+  <a href="#">14</a>
+  <a href="#">Next</a>
+</div>
+
+</body>
+</html>
