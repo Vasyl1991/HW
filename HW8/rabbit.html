@@ -7,26 +7,22 @@
 body{
     transform: scale3d(0.8, 0.8, 0.8);
 }
-.vuho1 {
-    display: inline-block;
+.vuha{
+    display: inline-flex;
+}
+.vuho{
     position: relative;
     border: 10px solid #c26a23;
     background: #feae1b;
     height: 150px;
     width: 60px;
+}
+.vuho1 {
     margin-right: 122px;
     margin-left: 500px;
     
 }
-.vuho2{
-    display: inline-block;
-    position: relative;
-    border: 10px solid #c26a23;
-    background: #feae1b;
-    height: 150px;
-    width: 60px;
 
-}
 .redline{
     position:absolute;
     height: 100px;
@@ -34,7 +30,7 @@ body{
     background: red;
     margin: 25px;
 }
- 
+
 .head {
     margin-left: 340px;
     margin-top: -4px;
@@ -57,39 +53,30 @@ body{
     top: 30px;
     left: 30px
 }
-.eye1{
+.eyes{
     position: absolute;
     border: 15px solid;
     height: 90px;
     width: 90px;
     border-radius: 100%;
+}
+.eye1{
     left: 40px;
     background: #fcba25;
  
 }
 .eye2{
-    position: absolute;
-    border: 15px solid;
-    height: 90px;
-    width: 90px;
-    border-radius: 100%;
     right: 40px;
     background: #e83514;
 }
-.pupil1{
+.pupil{
     position: absolute;
     height: 15px;
     width: 15px;
     background: black;
     margin: 38px;
 }
-.pupil2{
-    position: absolute;
-    height: 15px;
-    width: 15px;
-    background: black;
-    margin: 38px;
-}
+
 .mouth{
     position: relative;
     width: 600px;
@@ -106,56 +93,54 @@ body{
     height: 180px;
     margin: 40px;
 }
-.tooth1{
+.tooth{
     position: absolute;
     width: 50px;
     height: 50px;
     background: #3b3e45;
     border: 10px solid;
-    left: 170px;
-    top: -10px;
     background-color: white;
+    top: -10px;
+}
+.tooth1{
+    left: 170px;
+
 }
 .tooth2{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background: #3b3e45;
-    border: 10px solid;
     right: 170px;
-    top: -10px;
-    background-color: white;
 }
         </style>
 </head>
 <body>
-<div class="vuho1">
+    <div class="vuha">
+<div class="vuho vuho1">
     <div class="redline">
     </div>
         </div>
-<div class="vuho2">
+<div class="vuho vuho2">
     <div class="redline">
     </div>
         </div>
+    </div>
 
 <div class="head">
     <div class="head1">
         <div class="head2">
-            <div class="eye1">
-                <div class="pupil1">
+            <div class="eyes eye1">
+                <div class="pupil">
                 </div>
             </div>
-            <div class="eye2">
-                 <div class="pupil2">
+            <div class="eyes eye2">
+                 <div class="pupil">
                  </div>
             </div>
         </div>
     </div>
         <div class="mouth">
         <div class="open_mouth">
-            <div class="tooth1">
+            <div class="tooth tooth1">
             </div>
-            <div class="tooth2">
+            <div class="tooth tooth2">
             </div>    
         </div>
     </div>
