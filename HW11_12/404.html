@@ -1,91 +1,92 @@
-
-
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
 <style>
 
-html, body{
-
-}
-body {
-  padding: 0;
-  margin: 0;
-  background-image: url(https://raw.githubusercontent.com/Kolland/fe-basics-resources/master/L11-12-HW/404-bg-image.jpg);
-  background-repeat: no-repeat;
+.container{
+  background-image: url("404-bg-image.jpg");
   width: 1920px;
   height: 1080px;
+  margin: 0 auto;
+  background-size: cover;
 }
+.four{
 
-#notfound{
-  position: relative;
-  height: 100vh;
-}
-a {
-  width: 62px;
-  height: 11px;
+  width: 112px;
+  height: 151px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: italic;
-  line-height: 3.6;
-  letter-spacing: normal;
+  font-size: 209px;
+  line-height: 0.75;
   text-align: center;
-  color: #ffe600;
+  color: white;
+  }
+.zero{
+  width: 152px;
+  height: 152px;
 }
-.Type-Area {
-  width: 571px;
-  height: 71px;
-  background-color: var(--white);
+.fof{
+  display: flex;
+  justify-content: center;
+  padding-top: 351px;
 }
-.Oops-That-page-can {
-  width: 425px;
+.oops {
+  
   height: 68px;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 2.4;
   letter-spacing: normal;
   text-align: center;
   color: white;
+  margin: 0 auto;
+  padding-top: 60px;
 }
 
-
-@media only screen and (max-width: 767px) {
-  .notfound .notfound-404 {
-    height: 110px;
-    line-height: 110px;
-  }
-  .notfound .notfound-404 h1 {
-    font-size: 120px;
-  }
+.search {
+  width: 571px;
+  height: 71px;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: white;
+  padding-left: 31px;
 }
-
-  }
+button {
+  width: 170px;
+  height: 72px;
+  background-color: #2a233d;
+  color: white;
+  border: 0px;
+  margin-left: 25px;
 }
-
-
-
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 3.6;
+  color: #ffe600;
+  text-decoration: none;
+}
 </style>
-<html lang="en"><head>
- 
-  <title>404</title>
-  
-  </head>
-  <body>
-  <div id="notfound">
-  <div class="notfound">
-  <div class="notfound-404">
-  <h1>404</h1>
-  </div>
-  <p class="Oops-That-page-can">Oops! That page can’t be found. 
-    It looks like nothing was found at this location.</p>
-  <a class="go-back" href="#">GO BACK</a><br>
-  <input class="Type-Area" id="Type-Area" type="search" placeholder="Maybe try a search?">
-  <label for="Type-Area">Maybe try a search</label>
-  </div>
-  </div> 
 
+<body>
+<div class="container">
+  <div class="fof">
+    <div class="four four1">4</div>
+    <div class="zero"><img src="404-icon.png"></div>
+    <div class="four four2">4</div>
+  </div>
+  <div class="oops">Oops! That page can’t be found.<br> 
+    It looks like nothing was found at this location.<br>
+  <span class="go_back"><a href="#">GO BACK</a></span>
+  <div>
+    <input type="search" name="search" class="search" placeholder="Maybe try a search?">
+    <button class="button">SEARCH</button>
+</div>
   
-  </body></html>
+</div>
+<div class="search_form">
+
+</div>
+</div>
+</div>
+</body>

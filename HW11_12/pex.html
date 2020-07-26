@@ -3,15 +3,21 @@
     <title>layout</title>
 <style>
     body{
-        width: 1864px;
-        height: 1571px;
+
         background-color: #ccc;
         margin: 0 auto;
+    }
+    .container{
+        width: 1864px;
+        height: 1453px;
+        margin: 0 auto;
+        background-color: #2e3b4e;
     }
     header{
         background-image: url("pex-header-bg.jpg");
         height: 67vh;
         background-size: cover;
+        background-position: center;
 
     }
     .search{
@@ -74,9 +80,14 @@
     padding-left: 251px;
 
 }
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
 
     </style>
-</head><body>
+</head>
+<body>
     <div class="container">
     <header>
         <div class="topnav">
@@ -101,7 +112,25 @@ will thank you for
 </div>
 
     </header>
+    <div class="content">
+        <div>
+            <h1> A fantastic heading</h1>
+            <p class="cnt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        <div>
+            <h1> A fantastic heading</h1>
+            <p class="cnt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+        <div>
+            <h1> A fantastic heading</h1>
+            <p class="cnt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+        <div>
+            <h1> A fantastic heading</h1>
+            <p class="cnt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+    </div>
 </div>
+
 
 
 
