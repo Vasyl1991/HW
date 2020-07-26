@@ -1,0 +1,5 @@
+<style>
+  width: 1920px;
+  height: 1080px;
+  background-image: url(https://github.com/Kolland/fe-basics-resources/blob/master/L11-12-HW/404-bg-image.jpg)
+</style>
