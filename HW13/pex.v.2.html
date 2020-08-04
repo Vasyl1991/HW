@@ -1,0 +1,428 @@
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+p, span, div{
+font-family: 'Open Sans', sans-serif;    
+}
+
+.all{
+background-color: #2e3b4e;
+margin:0;
+
+
+}
+
+.top-container {
+background-image: url(https://raw.githubusercontent.com/Kolland/fe-basics-resources/master/L11-12-HW/pex-header-bg.jpg);
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+
+
+header {
+display: flex;
+border-bottom: 1px solid white;
+align-items: center;
+}
+
+.logo {
+color: white;
+padding-left: 100px;
+}
+
+.header-right-box {
+margin-left: auto;
+padding-right: 100px;
+}
+
+.header-right-box {
+display: flex;
+align-items: center;
+}
+
+nav a {
+display: inline-block;
+color: white;
+text-decoration: none;
+border-bottom: 3px solid transparent;
+padding-top: 41px;
+padding-bottom: 41px;
+margin-right: 20px;
+margin-left: 20px;
+}
+
+nav a:hover {
+border-bottom-color: white;
+
+}
+
+.search-box {
+background-color: white;
+height: 44px;
+border-radius: 22px;
+display: flex;
+align-items: center;
+padding-left: 28px;
+padding-right: 13px;
+}
+
+.search-box img {
+width: 14px;
+}
+
+.search-box input {
+border: none;
+}
+
+.headline-text-container {
+max-width: 500px;
+display: flex;
+flex-direction: column;
+margin-top: auto;
+margin-bottom: auto;
+padding-left: 150px;
+transition: width 2s, height 2s, background-color 2s, transform 2s
+}
+.headline-text-container:hover{
+transform: rotate(360deg);
+}
+.pex{
+width: 41px;
+color: #e7526b;
+font-size: 28px;
+font-style: italic;
+margin-right: 0;
+font-weight: bold;
+}
+.pwt{
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+font-style: italic;
+}
+
+.headline-text {
+font-size: 50px;
+line-height: 1.4;
+color: white;
+margin-bottom: 50px;
+margin-top: 0;
+text-align: end;
+}
+a{
+text-decoration:none;
+}
+
+button {
+border-radius: 30px;
+box-shadow: 0px 1px 0 0 rgba(0, 0, 0, 0.2), inset 0px 1px 0 0 rgba(255, 255, 255, 0.4);
+background-color: #8824cd;
+border: none;
+padding: 20px 60px;
+color: white;
+font-size: 18px;
+margin-left: auto;
+}
+
+span {
+color: white;
+font-size: 12px;
+margin-left: auto;
+margin-right: 26px;
+margin-top: 18px;
+}
+.articles {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+max-width: 900px;
+margin: auto;
+
+}
+
+.card {
+break-inside: avoid;
+page-break-inside: avoid;
+padding: 10px;
+margin: 0 0 1em 0;
+width: 390px;
+}
+h2{
+height: 12px;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.73;
+letter-spacing: normal;
+text-align: left;
+color: white;
+text-transform:uppercase;
+padding-bottom: 22px;
+}
+.card p {
+width: 390px;
+height: 67px;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.73;
+letter-spacing: normal;
+text-align: left;
+color: white;
+}
+.wicked_container{
+display:flex;
+justify-content: center;
+flex-direction: column;
+max-width: 530px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 170px;
+padding-bottom: 194px;
+
+}
+.button2{
+margin:auto;
+background-color: white;
+width: 341px;
+color: #d54c63
+}
+.back_red{
+background-image: url(https://raw.githubusercontent.com/Kolland/fe-basics-resources/master/L13-HW/trees-with-overlay.png);
+background-size: cover;
+background-position: center;
+}
+.text_block{
+text-align: center;
+}
+.Wicked{
+font-family: 'Open Sans', sans-serif;
+font-size: 35px;
+font-weight: 300;
+line-height: 1.71;
+text-align: center;
+color: white;
+margin-bottom: 19px;
+}
+.wicked_lorem{
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+line-height: 1.73;
+text-align: center;
+color: white;
+margin-bottom: 19px;
+}
+.back_purple{
+background-image: url(https://raw.githubusercontent.com/Kolland/fe-basics-resources/master/L13-HW/bg-2-with-overlay.jpg);
+background-size: cover;
+background-position: center;
+}
+.purple_container{
+display:flex;
+justify-content: center;
+flex-direction: column;
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 170px;
+padding-bottom: 194px;
+}
+.button3{
+margin:auto;
+margin-bottom: 19px;
+
+}
+.experience{
+font-family: 'Open Sans', sans-serif;
+font-size: 40px;
+font-weight: 300;
+line-height: 1.2;
+letter-spacing: -1px;
+text-align: center;
+color: white;
+margin-bottom: 19px;
+}
+.experience_lorem{
+font-size: 20px;
+line-height: 1.65;
+letter-spacing: -0.2px;
+text-align: center;
+color: #a87bb7;
+margin-bottom: 19px;
+}
+.span2{
+font-size: 12px;
+line-height: 1.42;
+text-align: center;
+color: white;
+margin: 0;
+}
+.photography_block{
+background-image: url(https://raw.githubusercontent.com/Kolland/fe-basics-resources/master/L13-HW/food.jpg);
+background-size: cover;
+background-position: center;
+}
+.but_photo{
+background: none;
+height: 35px;
+width: 135px;
+border: 1px white solid;
+color: white;
+font-size: 13px;
+padding: 0;
+margin-bottom: 29px;
+}
+.photography_container{
+display:flex;
+flex-direction: column;
+max-width: 700px;
+padding-top: 170px;
+padding-bottom: 194px;
+margin-left: 212px;   
+}
+.photography_h{
+font-size: 50px;
+line-height: 1.4;
+color: white;
+margin-bottom: 50px;
+margin-top: 0;
+}
+.round{
+height: 45px;
+width: 45px;
+background-image: url(https://github.com/Kolland/fe-basics-resources/blob/master/L13-HW/avatar.jpg?raw=true);
+background-position: top;
+border-radius: 50%;
+margin-right: 15px;
+}
+.icon_text{
+display:inline-flex;
+}
+.text_block_photography{
+padding-top: 189px;
+}
+.Robar{
+font-size: 13px;
+}
+.ss{
+display: flex;
+justify-content: center;
+height: 33px;
+}
+.ss img{
+position: absolute;
+margin-top: -30px;
+}
+</style>
+<div class="all">
+ <div class="top-container">
+  <header>
+   <div class="logo"><a href="#"><span class="pex">pex</span> <span class="pwt">Photoshop Website template</span></a></div>
+    <div class="header-right-box">
+     <nav>
+      <a href="">About</a>
+      <a href="">How It Works</a>
+      <a href="">Services</a>
+      <a href="">FAQ</a>
+      <a href="">Contact</a>
+    </nav>
+
+   <div class="search-box">
+    <input type="search" placeholder="Search Website">
+    <img src="https://img.icons8.com/pastel-glyph/2x/search.png" alt="">
+   </div>
+ </div>
+</header>
+
+  <div class="headline-text-container">
+  <p class="headline-text">Design your eyeballs will thank you for </p>
+
+  <button class="button">Get Started Today</button>
+
+  <span>Lorem ipsum dolor sit amet, consectetur 
+ </span>
+</div>
+</div>
+
+
+<div class="articles">
+<div class="card">
+<h2>A fantastic heading</h2>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud</p>
+</div>
+
+<div class="card">
+<h2>Good day blokes</h2>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud</p>
+</div>
+
+<div class="card">
+<h2>Blaz Robar for president</h2>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud</p>
+</div>
+<div class="card">
+<h2>vote for robar</h2>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud</p>
+</div>
+</div>
+<div class="ss">
+<img src="https://raw.githubusercontent.com/Kolland/fe-basics-resources/master/L13-HW/shape.png">
+</div>    
+</div>
+
+<!----red block-->
+<div class="back_red">
+  <div class="wicked_container">
+   <div class="text_block">
+    <p class="Wicked">Wicked & whack, bang bang boo! </p>
+    <div class="wicked_lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </div>
+</div>
+
+   <button class="button2">Get Started Today</button>
+
+ </div>
+</div>
+<!----purple block-->
+  <div class="back_purple">
+   <div class="purple_container">
+    <div class="text_block_purple">
+     <p class="experience">Experience the rush today </p>
+       <div class="experience_lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipisicing elit. </div>
+    </div>
+
+    <button class="button3 button ">Get Started Today</button>
+    <span class="span2">Lorem ipsum dolor sit amet, consectetur</span>
+
+   </div>
+</div>
+
+<!--photography_block-->
+<div class="photography_block">
+  <div class="photography_container">
+    <div class="text_block_photography">
+      <button class="but_photo">Photography</button>
+      <p class="photography_h">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
+
+    <div class="icon_text">
+      <div class="round"></div> 
+    <span class="Robar">Lorem ipsum dolor sit amet, consectetur</span>
+    </div>
+     </div>
+
+  </div>
+</div>
+
