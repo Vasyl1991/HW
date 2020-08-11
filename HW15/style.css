@@ -161,11 +161,13 @@ nav a{
 .container2{
     display: flex;
     background-color: #f4f4f4;
+    max-height: 711px;
+    justify-content: center;
 
 }
 .column_left{
-    max-width: 500px;
     margin-top: 102px;
+    margin-right: 69px;
 }
 .position{
     display: flex;
@@ -214,3 +216,191 @@ nav a{
     display: flex;
     flex-direction: column;
   }
+  .editor {
+    object-fit: contain;
+    padding-top: 181px;
+
+  }
+  .column_right{
+  }
+  .Here-is-what-you-get {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    color: #8d81ac;
+    position: absolute;
+    margin-top: 84px;
+    margin-left: 27px;
+  }
+  /*CONTAINER3*/
+  .container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 87px;
+  }
+  .profile{
+    display: flex;
+  }
+  .mask{
+    border-radius: 50%;
+  }
+  .cont3_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Steven-Strange {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #635c73;
+  }
+  .DoctorS {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 2;
+    text-align: left;
+    color: #8d81ac;
+  }
+  .Pixelbuddha {
+    max-width: 720px;
+    height: 52px;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .Pixelbuddha-Suspendisse {
+    color: #8d81ac;
+  }
+  .hours-ago {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+    color: #848e97;
+    margin-top: 25px;
+  }
+.social_buttons{
+  display: flex;
+  margin-top: 117px;
+  margin-bottom: 79px;
+}
+  .soc_but{
+    width: 240px;
+    height: 50px;
+    font-family: Montserrat;
+    font-size: 21px;
+    line-height: 1.52;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+
+
+  }
+  .social_buttons div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .soc_but span{
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .github{
+    background-color: #f3f3f3;
+    margin-right: 25px;
+  }
+  .twitter{
+    background-color: #26a6d1;
+    color: white;
+    margin-right: 25px;
+  }
+  .facebook{
+    background-color: #3b5998;
+    color: white;
+  }
+  .followers{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 2.29;
+    text-align: center;
+    color: #848e97;
+  }
+
+  /*CONTAINER4*/
+  .container4{
+    display: flex;
+  }
+  .blocks_cont4{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1165px;
+    justify-content: space-between;
+    margin-bottom: 148px;
+  }
+  .blocks_cont4 div{
+    max-width: 326px;
+
+
+  }
+  .container4{
+    background-image: url(layer-1@2x.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .People-Are-Talking-About-Fork {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    color: white;
+    margin-top: 98px;
+    margin-bottom: 90px;
+  }
+  .logo2{
+    display: flex;
+    margin: auto;
+  }
+ .text_cont4{
+  width: 326px;
+  height: 62px;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+ .contet4 div{
+   height: 64px;
+   margin-bottom: 26px;
+ }
+ .contet4_1 div{
+  height: 34px;
+  margin-bottom: 32px;
+ }
+ .contet4{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 105px;
+ }
+ .contet4_1{
+  display: flex;
+  flex-direction: column;
+s
