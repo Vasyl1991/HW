@@ -23,22 +23,22 @@ if (login === null) {
 else {
     for (var i in users) {
         if (login === i) {
-						var password = prompt(`Enter you password, ${login}`);
+		var password = prompt(`Enter you password, ${login}`);
             
-  					if (password === users[i]) {
- 								message = `Welcome Home, ${login}!`;
-  					}
- 						else if (password === null){
-  							message = "Canceled";
-  					}
- 						else {
-  							message = "Wrong password";
- 						}
-  					break;
-  			}
+  		if (password === users[i]) {
+ 			message = `Welcome Home, ${login}!`;
+  		}
+ 		else if (password === null){
+  			message = "Canceled";
+  		}
+ 		else {
+  			message = "Wrong password";
  		}
-    if (!message)
- 				message = "Access denied"
+  		break;
+  		}
+ 		}
+      if (!message)
+ 	  message = "Access denied"
   }
   alert(message);
         
