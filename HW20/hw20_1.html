@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let login = prompt("Введи логін:");
+
+if (login == "admin") {
+    var password = prompt ("Give me you password, admin");
+        if (password == "passw0rd"){
+            alert ("Welcome Home!");
+}
+ else if (password  === null) {
+    alert ("Canceled");
+
+} else {
+    alert ("Wrong password");
+}
+}
+
+else if (login == null) {
+    alert ("Canceled");
+} else {
+    alert ("Access denied");
+}
+        
+    </script>
+    
+</body>
+</html>
