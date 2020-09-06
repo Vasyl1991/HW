@@ -667,7 +667,7 @@ container3__underline{
   margin-bottom: 60px;
   display: none;
 }
-@media(min-width:770){
+@media(min-width:770px){
   .container3__underline{
     min-width: 56.5%;
     display: block;
