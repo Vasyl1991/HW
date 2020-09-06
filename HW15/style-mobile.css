@@ -658,7 +658,7 @@ margin-bottom: 37px;
   }
 }
 
-container3__underline{
+.container3__underline{
   width: 350px;
   height: 1px;
   opacity: 0.2;
@@ -666,18 +666,18 @@ container3__underline{
   margin-top: 56px;
   margin-bottom: 60px;
 }
-@media(min-width:770px){
-  .container3__underline{
-    min-width: 56.5%;
-    display: block;
-  }
-}
 @media(max-width:769px){
   .container3__underline{
     min-width: 56.5%;
     display: block;
     display: none;
     
+  }
+}
+@media(min-width:770px){
+  .container3__underline{
+    min-width: 56.5%;
+    display: block;
   }
 }
 
