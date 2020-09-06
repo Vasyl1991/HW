@@ -665,12 +665,19 @@ container3__underline{
   background-color: #c7c7c7;
   margin-top: 56px;
   margin-bottom: 60px;
-  display: none;
 }
 @media(min-width:770px){
   .container3__underline{
     min-width: 56.5%;
     display: block;
+  }
+}
+@media(max-width:769px){
+  .container3__underline{
+    min-width: 56.5%;
+    display: block;
+    display: none;
+    
   }
 }
 
