@@ -393,6 +393,7 @@ height: 71px;
 @media(min-width:1100px){
   .column_right{
     height: 786px;
+    margin-top: 84px;
   }
 }
 @media(max-width:1100px){
@@ -408,7 +409,7 @@ height: 71px;
   .editor{
   
     object-fit: contain;
-    padding-top: 181px;
+    padding-top: 49px;
   }
 }
 /*-------------------*/
