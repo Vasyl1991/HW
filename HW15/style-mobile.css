@@ -658,6 +658,21 @@ margin-bottom: 37px;
   }
 }
 
+container3__underline
+  width: 350px;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #c7c7c7;
+  margin-top: 56px;
+  margin-bottom: 60px;
+  display: none;
+}
+@media(min-width:770){
+  .container4__underline{
+    min-width: 56.5%;
+    display: block;
+  }
+}
 
 .fa-fa-icon-awesome{
   position: absolute;
