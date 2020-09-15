@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--js1-->
+    <script>
+        function checkSpam(string){
+if (string.toLowerCase().includes("spam")){
+return true
+}
+else if (string.toLowerCase().includes("sex")){
+return true
+}
+return false
+}
+
+console.log(checkSpam('[sex] How to earn fast money?'));
+        </script>
+
+    <!--js1-->
+    <script>
+function getString(string){
+if (string.length <= 20){
+return string
+}
+return string.slice(0,17) + "..."
+}
+
+console.log( getString("123456789123456712348"))
+        </script>
+</body>
+</html>
