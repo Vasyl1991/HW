@@ -773,8 +773,10 @@ margin-bottom: 37px;
   background-color: #8d81ac;
   
   }
+  @media (max-width: 800px){
   .articles__column3{
   margin-left: 32px;
+    }
   }
   
   .column5__body--describe {
