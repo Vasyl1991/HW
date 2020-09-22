@@ -964,6 +964,7 @@ margin-right: 15px;
 @media (max-width: 800px){
   .container-articles__column{
   max-width: calc(100% - 64px);
+  margin-left: 32px;
   }
 }
 .container-articles__column h3{
