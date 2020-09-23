@@ -1,3 +1,14 @@
+:focus::-webkit-input-placeholder {
+color: transparent
+}
+:focus::-moz-placeholder {
+color: transparent
+}
+:focus:-moz-placeholder {
+}
+:focus:-ms-input-placeholder {
+color: transparent}
+
 body{
   margin: 0px;
 }
@@ -1127,14 +1138,7 @@ nav a{
     margin-left: auto;
   }
 }
-@media (min-width:1160px){
-  .footer-container{
-    display: flex;
-    justify-content: center;
-    margin-right: 40px;
-    margin-left: 40px;
-  }
-}
+
 
 .footer-container__company{
 max-width: 253px;
