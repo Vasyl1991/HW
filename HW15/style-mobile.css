@@ -513,6 +513,13 @@ height: 71px;
   flex-wrap: wrap;
   justify-content: center;
   }
+
+@media (max-width: 530px){
+  .soc_but{
+    min-width: 240px;
+  }
+}
+  
   .soc_but{
     min-width: 240px;
     height: 50px;
