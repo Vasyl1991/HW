@@ -83,7 +83,7 @@ a{
 .menu__list{
   display: none;
 }
-.menu__list a{ 
+.menu__list a{
   font-family: Montserrat;
   font-size: 16px;
   font-weight: bold;
@@ -132,13 +132,13 @@ a{
     display: flex;
     flex-direction: column;
     padding-top: 108px;
-  
+
   }
 
   @media(max-width:698px){
     .header_container_text{
       padding-top: 72px;
-    
+
     }
   }
   .header_container_text h1{
@@ -151,7 +151,7 @@ a{
     line-height: 0.78;
     height: 77px;
     margin-bottom: 18px;
-  
+
   }
   .span1{
     font-family: Lato;
@@ -196,7 +196,7 @@ a{
     line-height: 1.07;
     color: #848e97;
   }
-  
+
   .Revolutionary-editor {
     font-family: Montserrat;
     font-size: 54px;
@@ -216,7 +216,7 @@ a{
   }
   }
   .aenean-cursus {
-  
+
     opacity: 0.8;
     font-family: Source Sans Pro;
     font-size: 21px;
@@ -242,7 +242,7 @@ a{
 }
 @media(max-width:1110px){
 .what-you-get{
-  
+
   background-color: #f4f4f4;
   min-height: 1430px;
   margin-bottom: 110px;
@@ -409,7 +409,7 @@ height: 71px;
 }
 @media(min-width:1100px){
   .editor{
-  
+
     object-fit: contain;
     padding-top: 49px;
   }
@@ -514,12 +514,8 @@ height: 71px;
   justify-content: center;
   }
 
-@media (max-width: 530px){
-  .soc_but{
-    min-width: 280px;
-  }
-}
-  
+
+
   .soc_but{
     min-width: 240px;
     height: 50px;
@@ -533,19 +529,24 @@ height: 71px;
     border-radius: 4px;
     position: relative;
     margin-bottom: 18px;
-  
-  
+
+
   }
+  @media (max-width: 530px){
+  .soc_but{
+    min-width: 280px;
+  }
+}
   .social_buttons div{
     display: flex;
     flex-direction: column;
     text-align: center;
-  
+
   }
   .soc_but span{
     margin-left: auto;
     margin-right: auto;
-  
+
   }
   .github{
     background-color: #f3f3f3;
@@ -563,7 +564,7 @@ height: 71px;
     .facebook__followers{
       margin-bottom: 59px;
     }
-  
+
   .followers{
     font-family: Montserrat;
     font-size: 14px;
@@ -594,7 +595,7 @@ height: 71px;
       margin-top: 56px;
       margin-bottom: 59px;
 
-  
+
       }
     }
   /*CONTAINER4*/
@@ -612,15 +613,15 @@ height: 71px;
   text-align: center;
   color: white;
   margin: 98px 0px 83px 0px;
-  
+
 }
 
- @media (max-width: 481px){ 
+ @media (max-width: 481px){
 .People-Are-Talking-About-Fork {
   margin: 80px 70px 32px 70px;
   }
 }
-@media (max-width: 731px){ 
+@media (max-width: 731px){
   .People-Are-Talking-About-Fork {
     line-height: 1.25
     }
@@ -680,7 +681,7 @@ margin-bottom: 37px;
     min-width: 56.5%;
     display: block;
     display: none;
-    
+
   }
 }
 @media(min-width:770px){
@@ -733,7 +734,7 @@ margin-bottom: 37px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 14px;
-  
+
   }
   .column_container5{
     display: flex;
@@ -750,7 +751,7 @@ margin-bottom: 37px;
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
   }
   .column5__header {
     font-family: Montserrat;
@@ -773,19 +774,19 @@ margin-bottom: 37px;
   padding-top: 26px;
   padding-bottom: 38px;
   }
-  
+
   .column5__body--line {
   width: 60px;
   height: 5px;
   background-color: #8d81ac;
-  
+
   }
   @media (max-width: 800px){
   .articles__column3{
   margin-left: 32px;
     }
   }
-  
+
   .column5__body--describe {
   max-width: 210px;
   font-family: Montserrat;
@@ -798,7 +799,7 @@ margin-bottom: 37px;
   align-items: center;
   line-height: 2;
   }
-  
+
   .column5__button {
   width: 160px;
   height: 42px;
@@ -808,7 +809,7 @@ margin-bottom: 37px;
   border-radius:25px;
   margin-bottom: 38px;
   }
-  
+
   .container5__header5{
   font-family: Montserrat;
   font-size: 48px;
@@ -841,13 +842,20 @@ margin-bottom: 37px;
 }
 }
 
-  
+@media (max-width:978px){
+.container5__text-under-colums{
+  margin-left: 58px;
+  margin-right: 58px;
+}
+}
+
+
   .column5:not(.column_container5__column4) {
     margin-right: 13px;
   }
-  
- 
-  
+
+
+
   .column-container5__header--dark{
     width: 299px;
     height: 111px;
@@ -1098,7 +1106,7 @@ nav a{
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-  } 
+  }
 }
 
 .footer-container__company{
@@ -1109,12 +1117,12 @@ margin-bottom: 36px;
 @media (min-width:600px){
   .footer-container__company{
     width: auto;
-  } 
+  }
 }
 @media (min-width:1100px){
   .footer-container__company{
     margin-right: 125px;
-  } 
+  }
 }
 
 .footer-container__company .logo{
@@ -1129,7 +1137,7 @@ margin-bottom: 36px;
 @media (min-width:1100px){
   .footer-container__navigation{
     margin-right: 79px;
-  } 
+  }
 }
 
 .footer-container__address{
@@ -1140,7 +1148,7 @@ margin-bottom: 36px;
 @media (min-width:1100px){
   .footer-container__address{
     margin-right: 77px;
-  } 
+  }
 }
 @media (max-width:600px){
 .footer-container__info{
@@ -1150,7 +1158,7 @@ margin-bottom: 36px;
 @media (min-width:600px){
   .footer-container__info{
     width: auto;
-  } 
+  }
 }
 
 .footer-container__company--text{
@@ -1166,7 +1174,7 @@ margin-bottom: 36px;
 @media (min-width:1100px){
   .footer-container__company--text{
     margin-right: 77px;
-  } 
+  }
 }
 .footer-container__navigation--h{
   line-height: 1.75;
