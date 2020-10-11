@@ -1,0 +1,47 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  </head>
+
+  <body>
+    <div class="tree"></div>
+    
+
+
+    <script>
+      function renderTree(selector, height) {
+        function renderer(block) {
+          let star = "⭐"
+          if (height > 0){
+            block.insertAdjacentHTML("beforeend", star + "<br>")
+        }
+          let line = "🎄";
+         
+          for (let i = 1; i < height; ++i) {
+            line += "🎄";
+           
+            block.insertAdjacentHTML("beforeend", line + "<br>");
+           
+          }
+          if (height === undefined) {
+            return renderTree(".tree", 10);
+
+          }
+        }
+        renderer(document.querySelector(selector));
+        for (let block of document.querySelectorAll(selector)) {
+          block.innerHTML = document.querySelector(selector).innerHTML;
+        }
+      }
+
+      renderTree(".tree", );
+
+    </script>
+
+  </body>
+
+</html>
