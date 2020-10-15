@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <div class="form">
+        
+          <label for="Firstname">Firstname</label>
+          <input type="text" name="Firstname" id="Firstname" value=""><br>
+          <label for="Lastname">Lastname</label>
+          <input type="text" name="Lastname" id="Lastname" value="">
+          <br>
+        
+          <label for="Role">Role</label>
+          <select name="Role-select" value="">
+            <option name="Role" id="Role" value="Alter Ego">Alter Ego</option>
+            <option name="Role" id="Role1" value="Ego Alter">Ego Alter</option>
+          </select>
+        <br>
+        
+            <div class="sex">
+              <span>Sex</span><br>
+              <input type="radio" name="sex" id="male" value="male">
+              <label for="male">Male</label>
+              <input type="radio" name="sex" id="female" value="female">
+              <label for="female">Female</label>
+            </div>
+        
+            <div class="hobby">
+              <br>Hobby<br>
+              <input type="checkbox" name="hobbies" value="fight">
+              <label>Fight</label>
+              <input type="checkbox" name="hobbies" value="soup">
+              <label>Make soup</label>
+              <input type="checkbox" name="hobbies" value="flowers">
+              <label>Grow flowers</label>
+            </div>
+         </div>
+        <input type="submit" value="Update">
+        
+        
+        </form>
+        <script>
+            let user = {
+                name: "Tyler",
+                lastname: "Durden",
+                role: "Alter Ego",
+                select: "male",
+                hobbies: ["fight", "soup"]
+              }
+              
+              document.querySelector('#Firstname').value = user.name;
+              document.querySelector('#Lastname').value = user.lastname;
+              
+              document.getElementsByName("Role-select")[0].value = user.role;
+              
+              [...document.getElementsByName("sex")]
+              .forEach(radio => (radio.value === user.select) && (radio.checked = true));
+              
+              [...document.getElementsByName("hobbies")]
+              .forEach(checkbox => user.hobbies.includes(checkbox.value) && (checkbox.checked = true));
+              
+              const form = document.querySelectorAll('form')[0];
+              
+              form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                const formData = new FormData(this);
+                formData.forEach((value, name) => {
+                  console.log(name, value);
+                })
+              })
+              
+        </script>
+</body>
+</html>
