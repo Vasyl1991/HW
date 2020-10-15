@@ -1,0 +1,315 @@
+:focus::-webkit-input-placeholder {
+color: transparent
+}
+:focus::-moz-placeholder {
+color: transparent
+}
+:focus:-moz-placeholder {
+}
+:focus:-ms-input-placeholder {
+color: transparent}
+
+body{
+    margin: 0px;
+}
+.container{
+    background-color: #f8f8f8;
+}
+a{
+    text-decoration: none;
+}
+
+.header-artboard{
+    background-color: #303030;
+}
+
+
+
+.header-artboard__container{
+    max-width: 57%;
+    margin: auto;
+}
+
+@media (min-width: 2050px){
+.header-artboard__container{
+    max-width: 1170px
+    }
+}
+
+
+@media (max-width: 1024px){
+.header-artboard__container{
+   max-width: 76%;
+}
+    }
+
+@media (max-width: 768px){
+.header-artboard__container{
+   max-width: 94%;
+}
+    }
+
+@media (max-width: 768px){
+.inner-basket{
+    margin-right: -3px;
+}
+    }
+
+.header-artboard__container--inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+    /*padding: 16px 0px;*/
+}
+
+.inner-currency,
+.inner-authorization,
+.inner-baskethref__status
+{
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 1.62;
+    text-align: left;
+    color: #777777;
+    font-weight: bold;
+}
+.inner-currency__text{
+margin-right: 5px;
+}
+.inner-basket{
+    min-width: 147px;
+    background-color: #00c8c8;
+    padding: 14px 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+
+}
+.inner-baskethref__status{
+     color: white;
+     padding: 0px;
+     margin-left: 25px;
+     margin-right: 5px;
+
+}
+
+.inner-authorization{
+    display: flex;
+    align-items: center;
+    margin-right: 82px;
+}
+@media (max-width: 700px){
+.inner-authorization{
+    margin-right: 21px;
+}
+    }
+
+@media (max-width: 500px){
+.inner-authorization{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+    }
+
+@media (max-width: 425px){
+.inner-authorization{
+    margin-right: -15px;
+}
+    }
+
+.inner-authorization-basket{
+    display: flex;
+}
+
+.inner-authorization__register{
+    margin-right: 35px;
+}
+
+.fas-shopping-cart{
+    margin-right: 25px;
+    object-fit: contain;
+    font-family: FontAwesome;
+    font-size: 20px;
+    line-height: 1.8;
+    color: white;
+}
+
+.fa-chevron-down{
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+}
+
+.top-main-menu__logo{
+    font-family: Montserrat;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 37px;
+    font-weight: bold;
+}
+.top-main-menu__logo a{
+    color: #222;
+}
+
+.top-main-menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 7.2%;
+    margin-left: 7.2%;
+
+}
+
+.container-top-main-menu{
+    background: url(1-Home.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    max-width: 2053px;
+    margin: auto;
+}
+.top-main-menu__categories{
+    margin-right: 76px;
+}
+
+.top-main-menu__categories a{
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 1.54;
+  text-align: right;
+  color: #222222;
+  text-transform:uppercase;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+
+@media (max-width: 1190px){
+.top-main-menu{
+    margin-right: 4.2%;
+    margin-left: 4.2%;
+    }
+}
+
+@media (max-width: 1190px){
+.top-main-menu__categories{
+    margin-right: 0px;
+    }
+}
+
+
+
+.top-main-menu__categories__search{
+    margin-left: auto;
+    margin-top: 46px;
+    display: flex;
+}
+
+@media (max-width: 991px){
+.top-main-menu__categories__search{
+    margin-left: 0px;
+    }
+}
+
+@media (max-width: 991px){
+.top-main-menu{
+    justify-content: center;
+    }
+}
+
+.top-main-menu__search{
+    display: flex;
+    position: relative;
+
+
+
+}
+
+.top-main-menu__search img{
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+
+.top-search-box{
+    width: 190px;
+    height: 30px;
+    background-color: #f8f8f8;
+    border: solid 1px #e7e7e7;
+
+}
+
+.top-main-menu__category{
+    position: relative;
+}
+.top-main-menu__categories a:hover,
+.fa-bars:hover{
+    color: #00c8c8;
+}
+
+.top-main-menu__category_fa-chevron-down{
+    position: absolute;
+    left: 0px;
+    top: 23px;
+}
+
+.top-main-menu__bars{
+    display: none;
+}
+
+@media(max-width: 690px){
+.top-main-menu__categories{
+display: none;
+    }
+    .top-main-menu__bars{
+    display: block;
+    margin-right: 30px;
+}
+  .fa-bars{
+    font-size: 30px;
+    color: #303030;
+    }
+    .top-search-box{
+    width: 370px;
+    }
+}
+
+@media(max-width: 450px){
+    .top-search-box{
+    width: 300px;
+    }
+}
+
+@media(max-width: 400px){
+    .top-search-box{
+    width: 100%;
+    }
+}
+
+.button__shop-mens-collection{
+    border: 2px black solid;
+    width: 342px;
+    height: 59px;
+    margin-top: 739px;
+    margin-right: 323px;
+    margin-bottom: 122px;
+    align-self: flex-end;
+    display: flex;
+}
+
+.button__shop-mens-collection--text{
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  text-align: center;
+  color: #454647;
+  text-transform: uppercase;
+  margin: auto;
+}
